@@ -29,7 +29,8 @@ class A {
 
 class ClassB extends A {
     @Override  // now it cleared that this method is SURELY Overrided------------
-    public void method2() {   // Overriding(same name && list of arguments && public-to-public only && static and final are not overrided) : gives priority to itself methods **************
+    public void method2() {  
+     // Overriding(same name && list of arguments && public-to-public only && static and final are not overrided) : gives priority to itself methods **************
         System.out.println("i am method2 of class B");
     }
 

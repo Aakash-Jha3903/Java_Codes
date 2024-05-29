@@ -1,3 +1,5 @@
+// aj : only parent ke methods run honge
+
 package OOP_Java;
 class Phone {
     public void showTime() {
@@ -30,8 +32,8 @@ public class Dynamic_Method_Dispatch {
         // SmartPhone obj2 = new Phone(); // Not allowed XX
 
         obj.showTime();
-        obj.on();
-        // obj.music(); Not Allowed
+        obj.on();   // Parent ka hi call hoga, as execution start from parent
+        // obj.music(); //Not Allowed
 
     }
 
