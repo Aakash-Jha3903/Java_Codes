@@ -6,10 +6,10 @@ imposed. Create a class account that stores customerName, accountnNumber and ope
 this derive the classes current and saving to make them more specific to their requirements. Include
 necessary member function in order to achieve following tasks:
 
-i)Deposit an amount for a customer and update the balance . 
-ii)Display the account details. Iii)Compute and deposit interest.
+i) Deposit an amount for a customer and update the balance . 
+ii) Display the account details. Iii)Compute and deposit interest.
 Iv) Withdraw amount for a customer after checking the balance and update the balance.
-v)Check for the minimum balance(for current account) */
+v) Check for the minimum balance(for current account) */
 
 import java.util.Scanner;
 
