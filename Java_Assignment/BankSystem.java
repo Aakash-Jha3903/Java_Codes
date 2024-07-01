@@ -9,7 +9,7 @@ necessary member function in order to achieve following tasks:
 i) Deposit an amount for a customer and update the balance . 
 ii) Display the account details. 
 iii)Compute and deposit interest.
-Iv) Withdraw amount for a customer after checking the balance and update the balance.
+iv) Withdraw amount for a customer after checking the balance and update the balance.
 v) Check for the minimum balance(for current account) */
 
 import java.util.Scanner;
